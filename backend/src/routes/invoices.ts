@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express';
-import Invoice from '../models/Invoice';
+import Invoice from '../models/Invoice.js';
 
 const router = Router();
 

@@ -2,8 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import invoiceRouter from './routes/invoices';
-import clientRouter from './routes/clients';
+import invoiceRouter from './routes/invoices.js';
+import clientRouter from './routes/clients.js';
 
 dotenv.config();
 
