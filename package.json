@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
     "dev:frontend": "vite",
-    "dev:backend": "ts-node-dev backend/src/index.ts",
-    "build:backend": "tsc -p backend/tsconfig.json",
-    "seed": "npm run build:backend && node backend/dist/seed/seed.js",
+    "dev:backend": "ts-node-dev src/backend/src/index.ts",
+    "build:backend": "tsc -p src/backend/tsconfig.json",
+    "seed": "npm run build:backend && node src/backend/dist/seed/seed.js",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start:backend": "cd backend && node dist/index.js",
+    "start:backend": "cd src/backend && node dist/index.js",
     "start": "npm run start:backend"
   },
   "dependencies": {
