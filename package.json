@@ -12,7 +12,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start:backend": "node backend/dist/index.js"
+    "start:backend": "node backend/dist/index.js",
+    "start": "npm run start:backend"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
