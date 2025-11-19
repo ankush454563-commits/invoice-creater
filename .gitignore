@@ -26,9 +26,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Backend
-backend/dist/
-
 # Capacitor
 android/
 ios/
