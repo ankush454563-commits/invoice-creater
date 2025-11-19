@@ -29,3 +29,5 @@ backend/dist/
 # Capacitor
 android/
 ios/
+
+.vercel
