@@ -12,7 +12,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start:backend": "cd ../backend && node dist/index.js",
+    "start:backend": "cd backend && node dist/index.js",
     "start": "npm run start:backend"
   },
   "dependencies": {
